@@ -6,7 +6,9 @@ import Rodape from './components/Rodape'
 function App() {
   return (
     <>
+      <Menu/>
       <Outlet/>
+      <Rodape/>
     </>
   )
 }
