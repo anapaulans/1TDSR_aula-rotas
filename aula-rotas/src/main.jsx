@@ -1,7 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
-import './index.css'
 
 //importando elementos que irá precisar do router e as paginas main.jsx. E chamando os componentes Menu e Rodape no App
 import {createBrowserRouter, RouterProvider, Navigate} from 'react-router-dom'
