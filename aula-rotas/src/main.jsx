@@ -9,7 +9,7 @@ import Produtos from './routes/Produtos/Produtos.jsx'
 import Error from './routes/Error/Error.jsx'
 import EditarProduto from './routes/EditarProdutos/EditarProdutos.jsx'
 
-//Configurando rotas para utilizar o metodo createBrowserRouter, rece dados do App e dentro do atributo children
+//Configurando rotas para utilizar o metodo createBrowserRouter, recebe dados do App e dentro do atributo children
 const router = createBrowserRouter([
   {
    path: '/',
@@ -27,10 +27,6 @@ const router = createBrowserRouter([
     {
       path:"produtos/editar/:id",
       element: <EditarProduto/>
-    },
-    {
-      path: "/antiga",
-      element: <Navigate to="/"/>
     }
   ]
 }])
