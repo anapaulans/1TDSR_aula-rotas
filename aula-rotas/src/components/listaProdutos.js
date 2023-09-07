@@ -15,4 +15,14 @@ export const ListaProdutos = [
         nome:'Monitor',
         preco: 950
     },
+    {
+        id: 4,
+        nome:'Celular',
+        preco: 5000
+    },
+    {
+        id: 5,
+        nome:'Carregador',
+        preco: 1000
+    },
 ]
