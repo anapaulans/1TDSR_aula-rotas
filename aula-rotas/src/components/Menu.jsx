@@ -6,10 +6,7 @@ export default function Menu() {
     <nav className="menu">
         <Link to='/'>Home</Link>
         <span> | </span>
-        <Link to='/produtos'>Produtos</Link>
-        <span> | </span>
-        <Link to='/vsualizarAparelho'>VisualizarAparelho</Link>
-        
+        <Link to='/produtos'>Aparelhos</Link>
     </nav>
   )
 }

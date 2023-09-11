@@ -1,28 +1,39 @@
+import teclado from '../imagem/img teclado.jpg';
+import mouse from '../imagem/img mouse.jpg';
+import monitor from '../imagem/img monitor.jpg';
+import macbook from '../imagem/img macbook.jpg';
+import celular from '../imagem/img celular.png'
+
 //Passando valor de uma pagina para outra 
 export const ListaProdutos = [
     {
         id: 1,
         nome: 'Teclado',
-        preco: 150
+        imagem: teclado,
+        preco: 200
     },
     {
         id: 2,
         nome: 'Mouse',
-        preco: 120
+        imagem: mouse,
+        preco: 100
     },
     {
         id: 3,
         nome:'Monitor',
+        imagem: monitor,
         preco: 950
     },
     {
         id: 4,
         nome:'Celular',
-        preco: 5000
+        imagem: celular,
+        preco: 4099
     },
     {
         id: 5,
-        nome:'Carregador',
-        preco: 1000
+        nome:'notebook',
+        imagem: macbook,
+        preco: 2000
     },
 ]

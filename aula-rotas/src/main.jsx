@@ -9,6 +9,7 @@ import Produtos from './routes/Produtos/Produtos.jsx'
 import Error from './routes/Error/Error.jsx'
 import EditarProduto from './routes/EditarProdutos/EditarProdutos.jsx'
 
+
 //Configurando rotas para utilizar o metodo createBrowserRouter, recebe dados do App e dentro do atributo children
 const router = createBrowserRouter([
   {
@@ -29,6 +30,7 @@ const router = createBrowserRouter([
       element: <EditarProduto/>
     },
     {
+// Serve para se alguem tentar ir para o endereço antigo, será direcionado para a pagina home
       path: "/antiga",
       element: <Navigate to="/"/>
     }
