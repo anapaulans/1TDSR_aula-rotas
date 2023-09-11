@@ -28,3 +28,6 @@ export default function EditarProduto() {
     </main>
   )
 }
+
+//essa parte cria uma pagina de edicao de produto que exibe detalhes do produto base, permitindo que o usuario 
+//edite o produto e redirecionando de volta para a lista de produto pós a edição.

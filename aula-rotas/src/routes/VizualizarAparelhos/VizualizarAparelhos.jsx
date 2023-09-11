@@ -14,11 +14,13 @@ const VisualizarAparelho = () => {
 
   return (
     <div>
-      <h1>{ListaProdutos.nome}</h1>
-      <img src={ListaProdutos.imagem} alt={prod.nome} />
-      <p>{ListaProdutos.preco}</p>
+      <h1>{aparelhos.nome}</h1>
+      <img src={aparelhos.imagem} alt={prod.nome} />
+      <p>{aparelhos.preco}</p>
     </div>
   );
 }
 
 export default VisualizarAparelho;
+
+//cria um componente React que exibe os detalhes de um aparelho com base no id passado na URL.

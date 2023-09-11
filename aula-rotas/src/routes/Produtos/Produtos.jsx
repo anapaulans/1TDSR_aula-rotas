@@ -17,3 +17,6 @@ export default function Produtos() {
 
     )
 }
+
+//cria uma pagina produto que lista os produtos disponiveis e fornece o link para cada um dele.
+//clicando em um desse links, será redirecionado para a pagina de edição do produto com base no id.
